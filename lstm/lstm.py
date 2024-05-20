@@ -17,7 +17,7 @@ from sklearn.metrics import mean_absolute_error, explained_variance_score, mean_
 from tensorflow.keras import regularizers
 from tensorflow.keras.callbacks import TensorBoard, EarlyStopping, LearningRateScheduler
 from tensorflow.keras.activations import gelu 
-from keras.optimizers.legacy import Adam#, RMSprop
+from keras.optimizers import Adam#, RMSprop
 
 MAIN_FOLDER = './'
 # ====The lines below are needed for GPU use. ==================
